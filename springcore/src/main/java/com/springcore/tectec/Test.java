@@ -11,6 +11,9 @@ public class Test {
 		Tec t1 =(Tec) context.getBean("t1");
 		System.out.println(t1.toString());
 		context.registerShutdownHook();//need this to destroy object created by spring
+		System.out.println("Hhhhhhhhhhhhhhhhhhhhh");
+		TecT t2 =(TecT) context.getBean("t2");
+		System.out.println(t2.toString());
 
 	}
 

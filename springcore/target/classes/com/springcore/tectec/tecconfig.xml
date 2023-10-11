@@ -10,5 +10,7 @@
   <bean class="com.springcore.tectec.Tec" name="t1" init-method="init" destroy-method="dest">
 	  <property name="price" value="30"/>
   </bean>
- 
+ <bean class="com.springcore.tectec.TecT" name="t2">
+	 <property name="price" value="20" />
+	 </bean>
   </beans>
