@@ -14,6 +14,10 @@ public class Test {
 		System.out.println("Hhhhhhhhhhhhhhhhhhhhh");
 		TecT t2 =(TecT) context.getBean("t2");
 		System.out.println(t2.toString());
+		
+		System.out.println("Hhhhhhhhhhhhhhhhhhhhh");
+		TecTec t3 =(TecTec) context.getBean("t3");
+		System.out.println(t3.toString());
 
 	}
 
