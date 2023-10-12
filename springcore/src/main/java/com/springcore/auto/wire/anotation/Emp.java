@@ -1,12 +1,14 @@
 package com.springcore.auto.wire.anotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Emp {
-	//@Autowired
+	@Autowired
+	@Qualifier("address1")
 	private Address adress;
 	
-	@Autowired
+	//@Autowired
 	public Emp(Address adress) {
 		super();
 		this.adress = adress;
