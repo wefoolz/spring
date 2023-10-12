@@ -19,4 +19,5 @@
 	<value>1234890</value>
 	<value>145670</value>
 </util:list>
+<bean class="com.springcore.stereo.Teacher" name="tech" scope="prototype"/>
   </beans>
