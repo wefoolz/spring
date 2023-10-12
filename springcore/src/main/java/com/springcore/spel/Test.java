@@ -14,9 +14,9 @@ public class Test {
 		Demo d = context.getBean("demo",Demo.class);
 		System.out.println(d);
 		
-		SpelExpressionParser temp = new SpelExpressionParser();
-		org.springframework.expression.Expression ep =  temp.parseExpression("2+3");
-		System.out.println(ep.getValue());
+//		SpelExpressionParser temp = new SpelExpressionParser();
+//		org.springframework.expression.Expression ep =  temp.parseExpression("2+3");
+//		System.out.println(ep.getValue());
 	}
 
 }
