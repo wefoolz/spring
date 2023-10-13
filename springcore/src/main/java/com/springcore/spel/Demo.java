@@ -9,11 +9,11 @@ public class Demo {
 	private int x;
 	@Value("#{2+2}")
 	private int y;
-	@Value("#{T(java.lang.Math).sqrt(25)}")
+	@Value("#{T(java.lang.Math).sqrt(25)}")//static method
 	private int z;
-	@Value("#{T(java.lang.Math).E}")
+	@Value("#{T(java.lang.Math).E}")//static variable
 	private int e;
-	@Value("#{new java.lang.String('Parth')}")
+	@Value("#{new java.lang.String('Parth')}")//object created
 	private String name;
 	
 	public String getName() {
