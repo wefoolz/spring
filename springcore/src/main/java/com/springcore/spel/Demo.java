@@ -16,6 +16,17 @@ public class Demo {
 	@Value("#{new java.lang.String('Parth')}")//object created
 	private String name;
 	
+	@Value("#{8-4>3}")
+	private boolean isTrue;
+	
+	
+	
+	public boolean isTrue() {
+		return isTrue;
+	}
+	public void setTrue(boolean isTrue) {
+		this.isTrue = isTrue;
+	}
 	public String getName() {
 		return name;
 	}
@@ -48,7 +59,7 @@ public class Demo {
 	}
 	@Override
 	public String toString() {
-		return "Demo [x=" + x + ", y=" + y + ", z=" + z + ", e=" + e + ", name=" + name + "]";
+		return "Demo x=" + x + "\n y=" + y + "\n z=" + z + "\n e=" + e + "\n name=" + name + "\n isTrue=" + isTrue;
 	}
 	
 
